@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10900","Client App login for ZARA COAT 3","chromium","Thu Jul 03 13:41:09 IST 2025","passed","Thu Jul 03 13:41:20 IST 2025","","ClientAppPOMany.spec.js","",""
+"","32465","Client App login for ADIDAS ORIGINAL","chromium","Thu Jul 03 13:41:09 IST 2025","broken","Thu Jul 03 13:41:42 IST 2025","","ClientAppPOMany.spec.js","",""
