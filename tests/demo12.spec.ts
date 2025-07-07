@@ -5,3 +5,8 @@ console.log(message1);
 
 let age:number =25;
 console.log(age1);
+
+
+
+let ageNumber:number =25;
+console.log(ageNumber);
