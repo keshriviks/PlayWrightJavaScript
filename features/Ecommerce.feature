@@ -14,3 +14,9 @@ Feature: Ecommerce validation
         Then Verify "ADIDAS ORIGINAL" is displayed in the Cart    
 		When Enter valid details and Place the Order
 		#Then Verify order is present in the OrderHistory
+
+    Scenario: Search and add Kesar Mango to cart on BigBasket
+        Given I open bigbasket.com
+        When I search for "kesar mango"
+        And I add "fresho! Kesar Mango 1 kg" to the cart
+        Then I should see a confirmation that the item was added
