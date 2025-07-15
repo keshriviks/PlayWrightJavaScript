@@ -1,6 +1,6 @@
 const {test,expect} =require('@playwright/test')
 
-test("Valid Login", async function({page}) {
+test(`@Tin Valid Login`, async function({page}) {
 
    console.log(await page.viewportSize().width)
    console.log(await page.viewportSize().height)
